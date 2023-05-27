@@ -8,8 +8,8 @@ import { ApiKeyCredentials } from '@azure/ms-rest-js';
 import RandomImageUrl from './DefaultImages';
 
 // Authentication requirements
-const key = process.env.REACT_APP_AZURE_COMPUTER_VISION_KEY;
-const endpoint = process.env.REACT_APP_AZURE_COMPUTER_VISION_ENDPOINT;
+const key = '040f104938a948f6a8d759c2e7a38831';
+const endpoint = 'https://msdemo-computervision.cognitiveservices.azure.com/';
 
 console.log(`key = ${key}`)
 console.log(`endpoint = ${endpoint}`)
